@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- day -->
+	<color name="textcolor_day">#CC9217</color>
+	<color name="bgcolor_day">#efefef</color>
+	<color name="textbgcolor_day">#ffffff</color>
+	<!-- night -->
+	<color name="textcolor_night">#82AEA1</color>
+	<color name="bgcolor_night">#000000</color>
+	<color name="textbgcolor_night">#273301</color>
+
+</resources>

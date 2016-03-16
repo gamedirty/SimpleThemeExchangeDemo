@@ -1,0 +1,37 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="day" parent="@android:style/Theme.Holo.Light">
+		<item name="android:actionBarStyle">@style/actionbar_style_day</item>
+		<item name="textcolor">@color/textcolor_day</item>
+		<item name="textbg">@color/textbgcolor_day</item>
+		<item name="bgcolor">@color/bgcolor_day</item>
+		<item name="imgsrc">@drawable/day_allshare_normal_night</item>
+	</style>
+
+	<style name="night" parent="@android:style/Theme.Holo">
+		<item name="android:actionBarStyle">@style/actionbar_style_night</item>
+		<item name="textcolor">@color/textcolor_night</item>
+		<item name="textbg">@color/textbgcolor_night</item>
+		<item name="bgcolor">@color/bgcolor_night</item>
+		<item name="imgsrc">@drawable/night_allshare_normal</item>
+	</style>
+
+	<style name="actionbar_title_style_day">
+		<item name="android:textColor">@android:color/holo_red_light</item>
+	</style>
+
+	<style name="actionbar_title_style_night">
+		<item name="android:textColor">@android:color/holo_red_dark</item>
+	</style>
+
+	<style name="actionbar_style_day" parent="android:Widget.ActionBar">
+		<item name="android:background">@android:color/holo_green_light</item>
+		<item name="android:titleTextStyle">@style/actionbar_title_style_day</item>
+	</style>
+
+	<style name="actionbar_style_night" parent="android:Widget.ActionBar">
+		<item name="android:titleTextStyle">@style/actionbar_title_style_night</item>
+		<item name="android:background">@android:color/holo_green_dark</item>
+	</style>
+
+</resources>

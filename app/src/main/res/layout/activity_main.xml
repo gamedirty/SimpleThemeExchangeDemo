@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/back"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="?attr/bgcolor"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="?attr/textbg"
+		android:padding="15dp"
+		android:text="夫刍狗之未陈也，盛以箧衍，巾以文绣，尸祝齐戒以将之；及其已陈也，行者践其首脊，蘇者取而爨之而已。"
+		android:textColor="?attr/textcolor"
+		android:textSize="20sp" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="67dp"
+		android:background="@null"
+		android:onClick="change"
+		android:src="?attr/imgsrc" />
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="100dp"
+		android:alpha="0.8"
+		android:background="@null" >
+
+		<ImageView
+			android:id="@+id/imageView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:src="@drawable/account_icon_renren" />
+
+		<ImageView
+			android:id="@+id/imageView3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:src="@drawable/account_icon_tencent" />
+
+		<ImageView
+			android:id="@+id/imageView4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:src="@drawable/account_icon_weibo" />
+
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:onClick="showFragment"
+			android:text="fragment" />
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="jump"
+		android:text="跳转新的activity" />
+
+	<FrameLayout
+		android:id="@+id/content"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" >
+	</FrameLayout>
+
+</LinearLayout>
