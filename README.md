@@ -2,6 +2,8 @@
 通过设置Theme的方式实现主题切换的一个demo
 
 效果图如下
+
+
 <img src="https://github.com/gamedirty/SimpleThemeExchangeDemo/blob/master/gif/themeexchange.gif"></img>
 
 关于设置主题方式实现主题切换的一些思考见
